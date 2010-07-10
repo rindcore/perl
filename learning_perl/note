@@ -1,0 +1,32 @@
+
+3. Lists and Arrays
+	
+	The last element index for array rocks is $#rocks, or -1
+	qw: "quoted words" or "quoted by whitespace", treat like single-quoted 
+	use @ to refer to an entire array
+	empty list != undef
+	@list1 = @list2; # copy a list from one array to another
+	The pop operator takes the last element off of an array and returns it
+	The push operator adds an element (or a list of elements) to the end of an array
+	shift and unshift
+	array values may be interpolated into a double-quoted string.
+	
+	foreach
+
+	Default: $_
+	$_ = "default";
+	print;
+
+	reverse operator
+
+	sort operator
+
+	scalar and list context
+
+	Forcing Scalar Context: function scalar
+
+	<STDIN> in List Context
+
+	print "@array"; #print space separated items
+
+4
